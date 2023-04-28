@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- header -->
+    <header>
+        <div class="logoNavBar">
+            <img src="./assets/img/nigiri.png" alt="">
+            <h2>CrunchiRoll</h2>
+        </div>
+        <nav class="navBar">
+            <a href="">Menu</a>
+            <a href="">Resevations</a>
+            <a href="">Us</a>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <div class="hero">
+             <h1 class="title-hero">THE BEST SUSHI YOU´VE EVER TASTE</h1>
+        </div>
+        <section class="CTApedidos">
+            <div class="cta-pedidos">
+                <h2>ORDER ONLINE</h2>
+                <div class="order-buttons"> 
+                    <button class="button-order-ws"> <img src="../assets/img/WhatsApp.png">  Order on WhatsApp</button>
+                    <button class="button-order-online"> <img src="../assets/img/cart.png">Order Online</button>
+                </div>
+            </div>
+        </section>
+        <section class="menu">
+            <h2>BEHOLD OUR MENU</h2>
+            <div class="card-conteiner">
+                <div id="menuCard"></div>
+            </div>
+        </section>
+        <section class="reservation">
+            <h2>BE MY GUEST</h2>
+            <p>Follow the sesam and sit down on one of our tables. There are waiting for you and your friends</p>
+            <div class="reservtionForm-conteiner">
+                <form id="reservationForm" class="reservationForm" action="">
+                    
+                    <input class="placeholder" name="name" type="text" placeholder="Full Name" required>
+                    
+                    <input class="placeholder" name="mail" type="text" placeholder="E-mail" required>
+                    
+                    <input class="placeholder" name="date" type="text" placeholder="When you wanna come?" required>
+                    
+                    <input class="placeholder" name="cant" type="number" placeholder="How much people are you?" required>
+                    <div class="submitButton-container">
+                        <button class="submitButton" type="submit"> I want my table</button>
+                    </div>
+
+                </form>
+                <!-- RESERVATION CARD -->
+                <div id="reservationCardConteiner">
+
+                </div>
+
+            </div> 
+                       
+        </section>
+
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
